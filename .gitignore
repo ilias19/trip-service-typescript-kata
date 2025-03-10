@@ -1,0 +1,75 @@
+node_modules
+dist
+coverage
+.nyc_output
+.DS_Store
+.idea
+
+# ansible
+*.retry
+ansible_vault_file
+
+.vagrant
+*.env
+
+# SchemaSpy Generation
+.schemaspy_output
+.schemaspy_cache
+.mpd
+.mpds
+
+# dump SQL files
+.dumps
+dump-sql*
+
+# extract package.json .dependencies
+.dependencies
+version-package*
+
+# Terraform
+*.tfstate
+.terraform
+infra/terraform/keycloak/backend.tf
+
+#python
+venv
+
+#testcafé
+e2e/screenshots
+artifacts
+
+# audit files
+nexsis-npm-audit.zip
+.audits
+
+CHANGELOG_*
+
+# IDEs and editors
+/.idea
+/local.properties
+*.iml
+.vscode/
+
+# gradle
+.gradle
+/gradle
+gradlew
+gradlew.bat
+
+yarn-error.log
+
+# telepresence
+telepresence.log
+
+# Vim tmp files
+*~
+*.swp
+
+# profiling
+.clinic
+
+/context.puml
+
+#yalc
+.yalc
+.yalc.lock

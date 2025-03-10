@@ -1,0 +1,11 @@
+import CollaboratorCallException from '../exception/CollaboratorCallException';
+
+import User from './User';
+
+export class UserSession {
+  public getLoggedUser(): User {
+    throw new CollaboratorCallException('UserSession.getLoggedUser() should not be called in an unit test');
+  }
+}
+
+export default new UserSession();
